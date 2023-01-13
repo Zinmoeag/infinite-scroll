@@ -1,0 +1,19 @@
+CANCEL FETCH REQUEST ------------------
+
+let controller = new Controller;
+let signal = controller.signal;
+
+
+
+fetch("https://www.example.com",{signal}){
+	
+
+
+	
+}
+
+//return a funtion
+return ()=>{
+	controller.abort();
+}	
+
